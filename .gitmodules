@@ -1,0 +1,6 @@
+[submodule "baselines/ns-vqa"]
+	path = baselines/ns-vqa
+	url = https://github.com/kexinyi/ns-vqa.git
+[submodule "baselines/CATER"]
+	path = baselines/CATER
+	url = https://github.com/rohitgirdhar/CATER.git
