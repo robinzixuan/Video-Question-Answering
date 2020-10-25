@@ -62,6 +62,8 @@ def localize_dataset(data, num_rows=NUM_ROWS, num_cols=NUM_COLS):
         fnames.append(fname)
         objects = metadata['objects']
         object = [el for el in objects if el['shape'] == 'spl'][0]
+        with open('localize.txt', 'w') as fout:
+           json.dump(str(object['locations']),fout)
         pos = object['locations'][str(len(object['locations']) - 1)]
         if num_rows != NUM_ROWS or num_cols != NUM_COLS:
             # In this case, need to scale the pos values to scale to the new num_rows etc

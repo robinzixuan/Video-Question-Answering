@@ -283,7 +283,7 @@ def main():
     data_cache_fpath = osp.join(OUTPUT_DATA_DIR, 'good_videos.pkl')
     
     this_output_dir = osp.join(output_dir, 'corresponding')
-    train_txt_outfpath = osp.join(this_output_dir, 'train.json')
+    train_txt_outfpath = osp.join(this_output_dir, 'labels.json')
     mkdir_p(this_output_dir)
     data = x[2]['classes']
     print(data)
