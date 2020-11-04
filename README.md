@@ -2,5 +2,5 @@
 Pytorch implementation for Video Question Answering (VQA) on the [CATER dataset](https://rohitgirdhar.github.io/CATER/). 
 
 <div align="center">
-  <img src="img/model.png" width="750px">
+  <img src="poster_template_16_9_aspect_ratio.pptx.jpg" width="750px">
 </div>
