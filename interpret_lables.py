@@ -28,7 +28,7 @@ with open("labels.json") as f:
 ## convert coordinations into labels
 interpreted = []
 new_dict = defaultdict(list) 
-f = open("train_labeled.txt", "w")
+# f = open("train_labeled.txt", "w")
 for i in range(len(processed_train)):
     name, coord = processed_train[i]
     temp = ''
