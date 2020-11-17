@@ -51,7 +51,6 @@ def recognize_speech_from_mic(recognizer, microphone):
     return response
 
     
-'''
+
 response = recognize_speech_from_mic(r, mic)
 print(response)
-'''
