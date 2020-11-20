@@ -7,11 +7,10 @@ from nltk.parse.corenlp import CoreNLPParser
 from nltk import parse
 from nltk.corpus import treebank
 from stat_parser import Parser
-#from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
+from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 encoder = 'what is type of cat'
 
 
-        
             
     
 
@@ -77,7 +76,7 @@ class word_recogization():
         self.decoder['CoreNLP_praser']['confidernt_level'] = self.judge_question_token(lists) + CoreNLP_praser
         self.decoder['CoreNLP_praser']['confidernt_level'] = 0.9
         
-        
+       
         
         
    
